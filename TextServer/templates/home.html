@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello</title>
+
+    <style>
+      body {
+        background-color: yellowgreen;
+      }
+    </style>
+</head>
+
+<body>
+    <form action="login" method="post" enctype="multipart/form-data">
+        <p>Enter Text:</p>
+        <p><textarea name="my_text"></textarea></p>
+        
+
+        <p>Enter file</p>
+        <p><input type="file" multiple="multiple" name="file"></p>
+
+        
+        <p>Enter fileDirectory</p>
+        <p><input type="file" webkitdirectory name="fileDirectory></p>
+
+        <p><input type="submit" value="submit" /></p>
+    </form>
+</body>
+
+</html>
