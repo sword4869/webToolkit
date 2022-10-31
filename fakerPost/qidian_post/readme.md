@@ -1,3 +1,5 @@
+- [Purpose](#purpose)
+- [Use Step](#use-step)
 # Purpose
 
 To know which post about Month Ticket Activity is locked in the app of qidianReader.
