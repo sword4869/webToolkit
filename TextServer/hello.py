@@ -26,12 +26,20 @@ def success(my_text):
 
 if __name__ == '__main__':
     
-    # host : 默认为127.0.0.1（localhost）。设置为'0.0.0.0'以使服务器在外部可用。虽然显示Running on http://192.168.0.2:80/ (Press CTRL+C to quit)。但是还是不行。
+    # host : 默认为127.0.0.1（localhost）。设置为'0.0.0.0'以使服务器在外部可用。虽然显示Running on http://192.168.0.2:8080/ (Press CTRL+C to quit)。但是还是不行。
     #       但是居然 host='192.168.0.2'，显示也一样，就行了！
     # port 默认值为5000
-    app.run(host='192.168.0.2', port=80)
-    # app.run(port=80)
+    # app.run(host='192.168.0.2', port=8080)
+
+
+
+
+    #  * Running on http://127.0.0.1:8080
+    app.run(port=8080)
 
 
 ##########################
-# python Hello.py
+'''
+python hello.py
+'''
+##########################
